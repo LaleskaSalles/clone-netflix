@@ -5,14 +5,23 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
+import Login from './components/login/Login';
 
 
 function App() {
+  const user = null;
+
   return (
     <div className="App">
+      
       <Routes>
-          <Route path="/" element={<HomeScreen/>}>
-          </Route>
+
+        {!user ? (
+          <Route path="/login" element={<Login/>}/>
+        ) : (
+          <Route path="/" element={<HomeScreen/>}/>
+        )}    
+
       </Routes>
       
     </div>
