@@ -30,3 +30,8 @@
     right: 20px;
     width: 30px;
 }
+
+
+.nav_avatar:hover , .nav_logo:hover{
+    cursor: pointer;
+}

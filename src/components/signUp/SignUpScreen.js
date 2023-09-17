@@ -1,10 +1,12 @@
 import React, { useRef } from 'react';
 import "./SignUpScreen.css";
 import { auth } from '../../firebase';
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import { useNavigate } from 'react-router-dom';
 
 
 export default function SignUpScreen() {
+  const navegate = useNavigate();
   const emailRef = useRef(null)
   const passwordRef = useRef(null);
 
@@ -23,8 +25,22 @@ export default function SignUpScreen() {
       alert(error.message)
     });
   };
+
   const signIn = (e) => {
     e.preventDefault();
+
+    signInWithEmailAndPassword(
+      auth,
+      emailRef.current.value,
+      passwordRef.current.value
+    )
+    .then((authUser) => {
+      console.log(authUser);
+      navegate('/');
+    })
+    .catch((error) => {
+      alert(error.message)
+    });
   }
 
   return (
