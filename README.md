@@ -1,46 +1,61 @@
-# Getting Started with Create React App and Redux
+# Clone Netflix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png">
 
-## Available Scripts
+## About
+This is a Netflix streaming platform clone project, developed with React, Redux, Firebase, and payment simulations using Stripe. The main objective of this project is to learn more about Firebase, NoSQL databases, and integration with The Movie Database (TMDb) API.
 
-In the project directory, you can run:
+## Project Objective
+The primary focus of this project is to provide a practical learning environment for exploring the following technologies and concepts:
 
-### `npm start`
+- **Firebase**: We use Firebase to implement user authentication, data storage, and hosting features.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Integration with TMDb**: We integrate The Movie Database (TMDb) API to obtain detailed data about movies and series for the catalog.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Payment Simulation with Stripe**: We implement payment simulations using integration with the Stripe platform.
 
-### `npm test`
+- **User Authentication**: Users can register, log in, and log out of their accounts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+- **React**: A JavaScript library for building the user interface.
 
-### `npm run build`
+- **Redux**: A state manager for controlling the application's data flow.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Firebase**: Google's mobile and web development platform used for authentication, data storage, and hosting.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Stripe**: An online payment platform used for simulating payment transactions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **TMDb API**: The Movie Database API is used to retrieve information about movies and series.
 
-### `npm run eject`
+## Portuguese Brazil
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Sobre
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este é um projeto de clone da plataforma de streaming Netflix, desenvolvido com React, Redux, Firebase e simulações de pagamento usando Stripe. O objetivo principal deste projeto é aprender mais sobre o Firebase, bancos de dados NoSQL e a integração com a API do The Movie Database (TMDb).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Objetivo do Projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+O foco principal deste projeto é proporcionar um ambiente de aprendizado prático para a exploração das seguintes tecnologias e conceitos:
 
-## Learn More
+- **Firebase**: Utilizamos o Firebase para implementar recursos de autenticação de usuário, armazenamento de dados e hospedagem.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Integração com TMDb**: Integramos a API do The Movie Database (TMDb) para obter dados detalhados sobre filmes e séries para o catálogo.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Simulação de Pagamento com Stripe**: Implementamos a simulação de pagamento usando a integração com a plataforma Stripe.
+
+- **Autenticação de Usuário**: Os usuários podem se cadastrar, fazer login e fazer logout de suas contas.
+
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para a construção da interface do usuário.
+
+- **Redux**: Gerenciador de estado para controlar o fluxo de dados da aplicação.
+
+- **Firebase**: Plataforma de desenvolvimento móvel e web do Google, utilizada para autenticação, armazenamento de dados e hospedagem.
+
+- **Stripe**: Plataforma de pagamento online usada para simular transações de pagamento.
+
+- **TMDb API**: A API do The Movie Database é usada para obter informações sobre filmes e séries.
+
+
