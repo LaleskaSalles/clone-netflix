@@ -23,9 +23,11 @@ function App() {
     
     const unsubscribe = auth.onAuthStateChanged((userAuth) =>{
       if (userAuth){
+        navigate('/')
         dispatch(login({
           uid: userAuth.uid,
-          email: userAuth.email
+          email: userAuth.email,
+          
         }));
       } else{
         //Logged out
