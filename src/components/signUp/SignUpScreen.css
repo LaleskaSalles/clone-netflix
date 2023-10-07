@@ -32,6 +32,15 @@
     margin-top: 20px;
 } 
 
+.signUpScreen > form > .signIn{
+    background-color: #e50914;
+}
+
+.signUpScreen > form > .signUp{
+    background-color: gray;
+    color: white;
+}
+
 .signUpScreen > form > h1{
     margin-bottom: 25px;
 }

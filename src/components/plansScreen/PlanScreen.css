@@ -13,8 +13,12 @@
     padding: 10px 20px;
     font-size: 1rem;
     color: #fff;
-    background-color: #e50914;
+    background-color: gray;
     font-weight: 600;
     border: none;
     cursor: pointer;
+}
+
+.plansScreen_plan--active > button{
+    background-color: #e50914 !important;
 }

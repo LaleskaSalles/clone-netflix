@@ -47,15 +47,10 @@ export default function SignUpScreen() {
     <div className='signUpScreen'>
         <form>
             <h1>Sign In</h1>
-            <input ref={emailRef} placeholder='Email' type='email'/>
-            <input ref={passwordRef} placeholder='Password' type='password'/>
-            <button type='submit' onClick={signIn}>Sign In</button>
-
-            <h4>
-              <span className='signUpScreen_gray'>New to Netflix? </span>
-              <span className='signUpScreen_link' onClick={register}>Sign Up now.</span>
-              
-            </h4>
+            <input ref={emailRef} required={true} placeholder='Email' type='email'/>
+            <input ref={passwordRef} required={true} placeholder='Password' type='password'/>
+            <button className='signIn' type='submit' onClick={signIn}>Sign In</button>
+            <button className='signUp' type='submit' onClick={register}>Sign Up</button>
         </form>
     </div>
   )
