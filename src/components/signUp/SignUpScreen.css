@@ -25,11 +25,10 @@
     font-size: 1rem;
     color: #fff;
     border-radius: 5px;
-    background-color: #e50914;
     font-weight: 600;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
 } 
 
 .signUpScreen > form > .signIn{
@@ -38,7 +37,6 @@
 
 .signUpScreen > form > .signUp{
     background-color: gray;
-    color: white;
 }
 
 .signUpScreen > form > h1{
@@ -47,7 +45,7 @@
 
 .signUpScreen > form > h4{
     text-align: left;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .signUpScreen_gray{
@@ -58,3 +56,9 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+span.error{
+    color: red;
+    padding-bottom: 10px;
+}
+
